@@ -1,0 +1,43 @@
+{
+  "version": 4,
+  "terraform_version": "1.4.2",
+  "serial": 14,
+  "lineage": "c25cef90-fb80-0363-8c32-9a5d62721832",
+  "outputs": {
+    "filepath": {
+      "value": "ubuntu\\state2.txt",
+      "type": "string"
+    }
+  },
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "local_file",
+      "name": "test2",
+      "provider": "provider[\"registry.terraform.io/hashicorp/local\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "content": "saiteja2",
+            "content_base64": null,
+            "content_base64sha256": "6o30+mT1Ce732gSMucMzoB5OnWFViXwdBsYIwmunMyE=",
+            "content_base64sha512": "pssnRHpgAHj1aN82FRMuqFAISJ+aI6Sd4zO9t/eTkGwb6oHfkRREzeWw5NKHfNgLS3sMnin9BveQpjOTLlp0Sw==",
+            "content_md5": "cdd19d6154cee989848ba36685eefa7d",
+            "content_sha1": "5b1f4622dbeee747ddc445daad379f8f034c5aed",
+            "content_sha256": "ea8df4fa64f509eef7da048cb9c333a01e4e9d6155897c1d06c608c26ba73321",
+             "content_sha512": "a6cb27447a600078f568df3615132ea85008489f9a23a49de333bdb7f793906c1bea81df911444cde5b0e4d2877cd80b4b7b0c9e29fd06f790a633932e5a744b",
+            "directory_permission": "0777",
+            "file_permission": "0777",
+            "filename": "ubuntu\\state2.txt",
+            "id": "5b1f4622dbeee747ddc445daad379f8f034c5aed",
+            "sensitive_content": null,
+            "source": null
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    }
+  ],
+  "check_results": null
+}
